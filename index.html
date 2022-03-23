@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <div class="BodyContainer">
+        <header class="Header">
+            <!-- cream meniul -->
+            <div class="TriggerButton MenuTrigger" id="menuTrigger">
+                <div class="Line1"></div>
+                <div class="Line2"></div>
+                <div class="Line3"></div>
+            </div>
+            <div class="NavBig">
+                <a href="#" class="NavBigLink">Microsoft 365</a>
+                <a href="#" class="NavBigLink">Office</a>
+                <a href="#" class="NavBigLink">Windows</a>
+                <a href="#" class="NavBigLink ddd">Surface</a>
+                <a href="#" class="NavBigLink ddd">Xbox</a>
+                <a href="#" class="NavBigLink ddd">Asistență</a>
+            </div>
+
+            <nav class="MainMenu" id="mainMenu">
+                <ul class="MainMenuList">
+                    <li class="MenuList"><a class="LinkList" href="#">Microsoft 365</a></li>
+                    <li class="MenuList"><a class="LinkList" href="#">Office</a></li>
+                    <li class="MenuList"><a class="LinkList" href="#">Windows</a></li>
+                    <li class="MenuList"><a class="LinkList" href="#">Surface</a></li>
+                    <li class="MenuList"><a class="LinkList" href="#">Xbox</a></li>
+                    <li class="MenuList"><a class="LinkList" href="#">Asistență</a></li>
+                    <li class="MenuList" id="btnTrigger">
+                        <span class="SpanTrigger">
+                            <a class="LinkList" href="#">Software-uri</a>
+                            <img src="/imagini/icon-arrow.svg" id="arrow" class="Arrow" alt="" width="20" height="20">
+                        </span>
+                    <li class="SubLinkList" id="btnSpan">
+                        <a class="SubList" href="#">Aplicații Windows</a>
+                        <a class="SubList" href="#">Outlook</a>
+                        <a class="SubList" href="#">Skype</a>
+                        <a class="SubList" href="#">Microsoft Teams</a>
+                    </li>
+                    </li>
+                    <li class="MenuList" id="btnTrigger1">
+                        <span class="SpanTrigger">
+                            <a class="LinkList" href="#">PC-uri și dispozitive</a>
+                            <img src="/imagini/icon-arrow.svg" id="arrow1" class="Arrow" alt="" width="20" height="20">
+                        </span>
+                    <li class="SubLinkList" id="btnSpan1">
+                        <a class="SubList" href="#">cumpărați Xbox</a>
+                        <a class="SubList" href="#">Accesorii</a>
+                    </li>
+                    </li>
+                    <li class="MenuList" id="btnTrigger2">
+                        <span class="SpanTrigger">
+                            <a class="LinkList" href="#">Divertisment</a>
+                            <img src="/imagini/icon-arrow.svg" id="arrow2" class="Arrow" alt="" width="20" height="20">
+                        </span>
+                    <li class="SubLinkList" id="btnSpan2">
+                        <a class="SubList" href="#">Jocuri PC</a>
+                        <a class="SubList" href="#">Jocuri Windows</a>
+                    </li>
+                    </li>
+                    <li class="MenuList" id="btnTrigger3">
+                        <span class="SpanTrigger">
+                            <a class="LinkList" href="#">Afaceri</a>
+                            <img src="/imagini/icon-arrow.svg" id="arrow3" class="Arrow" alt="" width="20" height="20">
+                        </span>
+                    <li class="SubLinkList" id="btnSpan3">
+                        <a class="SubList" href="#">Microsoft Cloud</a>
+                        <a class="SubList" href="#">Microsoft 365</a>
+                        <a class="SubList" href="#">Windows 365</a>
+                        <a class="SubList" href="#">Microsoft Industry</a>
+                    </li>
+                    </li>
+                    <li class="MenuList" id="btnTrigger4">
+                        <span class="SpanTrigger">
+                            <a class="LinkList" href="#">Developer & IT</a>
+                            <img src="/imagini/icon-arrow.svg" id="arrow4" class="Arrow" alt="" width="20" height="20">
+                        </span>
+                    <li class="SubLinkList" id="btnSpan4">
+                        <a class="SubList" href="#">.NET</a>
+                        <a class="SubList" href="#">Windows Server</a>
+                        <a class="SubList" href="#">Windows Dev Center</a>
+                        <a class="SubList" href="#">Documente</a>
+                        <a class="SubList" href="#">Power Platform</a>
+                    </li>
+                    </li>
+                    <li class="MenuList" id="btnTrigger5">
+                        <span class="SpanTrigger">
+                            <a class="LinkList" href="#">Alte</a>
+                            <img src="/imagini/icon-arrow.svg" id="arrow5" class="Arrow" alt="" width="20" height="20">
+                        </span>
+                    <li class="SubLinkList" id="btnSpan5">
+                        <a class="SubList" href="#">Descărcări și securitate gratuite</a>
+                        <a class="SubList" href="#">Educație</a>
+                    </li>
+                    </li>
+                    <li class="MenuList"><a class="LinkList" href="#">Vizualizare hartă site</a></li>
+                </ul>
+            </nav>
+            <div class="HeaderContainer">
+                <div class="HeaderArrow">
+                    <a href="#" class="ToateMicrosoft" id="toateMicrosoft">Toate Microsoft <span
+                            class="ArrowNav">&#8250;</span>
+                    </a>
+
+                    <div class="ShowToate" id="showToate">
+                        <ul>
+                            <span class="TitleShow">Software-uri</span>
+                            <li class="ListShow"><a href="#" class="LinkShow">Aplicații Windows</a></li>
+                            <li class="ListShow"><a href="#" class="LinkShow">Outlook</a></li>
+                            <li class="ListShow"><a href="#" class="LinkShow">Skype</a></li>
+                            <li class="ListShow"><a href="#" class="LinkShow">Microsoft Teams</a></li>
+                        </ul>
+                        <ul>
+                            <span class="TitleShow">PC-uri și dispozitive</span>
+                            <li class="ListShow"><a href="#" class="LinkShow">Cumpărați Xbox</a></li>
+                            <li class="ListShow"><a href="#" class="LinkShow">Accesorii</a></li>
+                        </ul>
+                        <ul>
+                            <span class="TitleShow">Divertisment</span>
+                            <li class="ListShow"><a href="#" class="LinkShow">Jocuri PC</a></li>
+                            <li class="ListShow"><a href="#" class="LinkShow">Jocuri Windows</a></li>
+                        </ul>
+                        <ul>
+                            <span class="TitleShow">Afaceri</span>
+                            <li class="ListShow"><a href="#" class="LinkShow">Microsoft Cloud</a></li>
+                            <li class="ListShow"><a href="#" class="LinkShow">Microsoft 365</a></li>
+                            <li class="ListShow"><a href="#" class="LinkShow">Windows 365</a></li>
+                            <li class="ListShow"><a href="#" class="LinkShow">Microsoft Industry</a></li>
+                        </ul>
+                        <ul>
+                            <span class="TitleShow">Developer & IT</span>
+                            <li class="ListShow"><a href="#" class="LinkShow">.NET</a></li>
+                            <li class="ListShow"><a href="#" class="LinkShow">Windows Server</a></li>
+                            <li class="ListShow"><a href="#" class="LinkShow">Windows Dev Center</a></li>
+                            <li class="ListShow"><a href="#" class="LinkShow">Documente</a></li>
+                            <li class="ListShow"><a href="#" class="LinkShow">Power Platform</a></li>
+                        </ul>
+                        <ul>
+                            <span class="TitleShow">Alte</span>
+                            <li class="ListShow"><a href="#" class="LinkShow">Descărcări și securitate
+                                    gratuite</a>
+                            </li>
+                            <li class="ListShow"><a href="#" class="LinkShow">Educație</a></li>
+                        </ul>
+                        <div class="HeaderArrowBottom">
+                            <span>Vizualizare hartă site</span>
+                        </div>
+                    </div>
+                </div>
+
+                <span class="Cautare">Căutare</span>
+                <button class="BtnSearch" id="search">
+                    <input type="text" id="searchInput" class="InputSearch">
+                    <img src="./imagini/search.png" width="40" height="40" class="SearchImg" alt="">
+                </button>
+                <a href="index.html" class="Logo">
+                    <img src="./imagini/asset2.png" width="22" height="22" alt="Logo Microsoft">
+                    <span>Microsoft</span>
+                </a>
+                <span class="Cos">Coș</span>
+                <a href="#" class="NavShow"><img src="./imagini/shopping-cart.png" class="ImgShoppingCart" width="25"
+                        height="25" alt="Imagine cos cumparaturi"></a>
+            </div>
+            <span class="Conectare">Conectare</span>
+            <a href="#"><img src="./imagini/login.png" class="ImgLogIn" width="25" height="25" alt="Imagine LogIn"></a>
+        </header>
+
+        <section class="Slider">
+            <nav class="SliderControl">
+                <!-- Sagetile slider-ului stanga si dreapta -->
+                <a href="#" id="previousSlide" class="SliderArrows SliderPrev" title="Revino la imaginea precedenta">
+                    <img src="./imagini/arrow2.svg" class="SliderArrowImage" width="48" height="60"
+                        alt="Imaginea precedenta">
+                </a>
+                <a href="#" id="nextSlide" class="SliderArrows SliderNext" title="Mergi la imaginea Urmatoare">
+                    <img src="./imagini/arrow2.svg" class="SliderArrowImage" width="48" height="60"
+                        alt="Imaginea precedenta">
+                </a>
+            </nav>
+            <ol id="sliderList" class="SliderList">
+                <li class="SliderItem Active">
+                    <a href="#" class="SliderLink">
+                        <picture class="SliderImage">
+                            <img src="./imagini/laptop2.png" alt="Imagine laptop" width="300" height="250">
+                        </picture>
+                    </a>
+                    <div class="Container">
+                        <div class="Content">
+                            <button class="BtnHeroArea">Nou</button>
+                            <h2 class="HeroTitle">Surface Laptop Studio</h2>
+                            <p class="ContentHeroArea">
+                                Încordați-vă "mușchii creativi" pe cel mai puternic Surface Laptop. Acum disponibil cu
+                                Windows 11.
+                            </p>
+                            <button class="BtnBottomHeroArea">Aflati mai multe<i
+                                    class="fas fa-angle-right ArrowHero"></i>
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <li class="SliderItem">
+                    <a href="#" class="SliderLink">
+                        <picture class="SliderImage">
+                            <img src="./imagini/tableta.png" alt="Imagine laptop" width="300" height="250">
+                        </picture>
+                    </a>
+                    <div class="Container">
+                        <div class="Content">
+                            <button class="BtnHeroArea">Nou</button>
+                            <h2 class="HeroTitle">Surface Pro 8</h2>
+                            <p class="ContentHeroArea">
+                                Realizați mai multe cu un ecran tactil mai mare, de 13 inchi, conexiuni mai rapide si
+                                viteza
+                                suplimentară.
+                                Acum disponibil cu Windows 11.
+                            </p>
+                            <button class="BtnBottomHeroArea">Aflati mai multe<i
+                                    class="fas fa-angle-right ArrowHero"></i>
+                            </button>
+                        </div>
+                    </div>
+                </li>
+            </ol>
+            <ol id="sliderPicker" class="SliderPicker">
+                <li class="SliderPickerItem Active">
+                    <a href="#" class="SliderPickerLink" title="Mergi la imaginea cu numarul ...">
+                        <span class="SliderPickerText">Imagine1 Laptop</span>
+                    </a>
+                </li>
+                <li class="SliderPickerItem">
+                    <a href="#" class="SliderPickerLink" title="Mergi la imaginea cu numarul ...">
+                        <span class="SliderPickerText">Imagine2 tableta</span>
+                    </a>
+                </li>
+                <li class="SliderLineItem">
+                    <a href="#" class="SliderLineLink" title="Mergi la imaginea cu numarul ...">
+                        <span class="SliderLineText"><i class="fas fa-grip-lines-vertical Pause"></i></span>
+                    </a>
+                </li>
+            </ol>
+        </section>
+
+        <div class="SubSlider">
+            <div class="Item">
+                <a href="#" class="SubSliderLink">
+                    <i class="fab fa-microsoft ItemImg"></i>
+                    <p class="SubSliderDescription">Alegeți Microsoft 365</p>
+                </a>
+            </div>
+            <div class="Item">
+                <a href="#" class="SubSliderLink">
+                    <i class="fas fa-laptop ItemImg"></i>
+                    <p class="SubSliderDescription">Explorați dispozitivele Surface</p>
+                </a>
+            </div>
+            <div class="Item">
+                <a href="#" class="SubSliderLink">
+                    <i class="fab fa-microsoft ItemImg"></i>
+                    <p class="SubSliderDescription">Obțineți Windows 11</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- ####### SECTION ###### -->
+        <div class="Section">
+            <main class="Main">
+                <a href="#"> <img src="./imagini/office.png" class="MainImg" alt="" width="400" height="300"></a>
+                <h2 class="MainTitle">Microsoft 365</h2>
+                <p class="MainText">
+                    Aplicații Office premium, spațiu de stocare suplimentar în cloud, securitate avansată și multe
+                    altele,
+                    toate într-un singur abonament convenabil.
+                </p>
+                <div class="MainLinkContainer">
+                    <a href="#" class="MainLink">Pentru până la 6 persoane <img src="./imagini/next.png"
+                            class="ArrowImgNext" alt=""> </a>
+                    <a href="#" class="MainLink">Pentru 1 persoană
+                        <img src="./imagini/next.png" class="ArrowImgNext" alt="">
+                    </a>
+                </div>
+            </main>
+            <main class="Main">
+                <a href="#"> <img src="./imagini/surfaceLaptop.png" class="MainImg" alt="" width="400" height="300"></a>
+                <h2 class="MainTitle">Surface Laptop 4</h2>
+                <p class="MainText">
+                    Faceți totul cu un design elegant, ultra-subțire, o viteză excelentă pentru multitasking și o
+                    performanță îmbunătățită.
+                </p>
+                <a href="#" class="MainLink">Cumpărați acum <img src="./imagini/next.png" class="ArrowImgNext" alt="">
+                </a>
+            </main>
+            <main class="Main">
+                <a href="#"> <img src="./imagini/edge.png" class="MainImg" alt="" width="400" height="300"></a>
+                <h2 class="MainTitle">Microsoft Edge</h2>
+                <p class="MainText">
+                    Performanță de clasă mondială, cu un nivel înalt de confidențialitate, productivitate și valoare, în
+                    timp ce navigați.
+                </p>
+                <a href="#" class="MainLink">Descărcați acum <img src="./imagini/next.png" class="ArrowImgNext" alt="">
+                </a>
+            </main>
+            <main class="Main">
+                <a href="#"> <img src="./imagini/teams.png" class="MainImg" alt="" width="400" height="300"></a>
+                <h2 class="MainTitle">Microsoft Teams</h2>
+                <p class="MainText">
+                    Discutați pe chat, sunați și faceți planuri cu familia și prietenii, toate într-o singură aplicație.
+                </p>
+                <a href="#" class="MainLink">Aflați mai multe <img src="./imagini/next.png" class="ArrowImgNext" alt="">
+                </a>
+            </main>
+        </div>
+
+        <div class="SubSection">
+            <a href="#"><img src="./imagini/OneDrive2.png" class="SubSectionImg" alt="" width="300" height="200"></a>
+            <div class="SubSectionContent">
+                <h2 class="SubSectionTitle">Microsoft OneDrvie</h2>
+                <p>Salvați fișierele și fotografiile pe OneDrive și accesați-le de pe orice dispozitiv, oriunde v-ați
+                    afla
+                </p>
+                <button class="BtnBottomHeroArea">Aflati mai multe<i class="fas fa-angle-right ArrowHero"></i>
+            </div>
+        </div>
+
+        <h2 class="SectionTitle">Pentru afaceri</h2>
+        <div class="Section">
+            <main class="Main">
+                <a href="#"><img src="./imagini/businessSurface.png" class="MainImg" alt="" width="400"
+                        height="300"></a>
+                <button class="BtnSectionMain">Nou</button>
+                <h2 class="MainTitle">Surface Pro 8 pentru business</h2>
+                <p class="MainText">
+                    Obțineți niveluri de performanță fără precedent și versatilitate pe un ecran de 13 inchi.
+                    Descoperiți
+                    cele mai noi dispozitive Surface pentru business, disponibile acum. Disponibile cu Windows 11.
+                </p>
+                <a href="#" class="MainLink">Aflați mai multe <img src="./imagini/next.png" class="ArrowImgNext" alt="">
+                </a>
+            </main>
+            <main class="Main">
+                <a href="#"> <img src="./imagini/Business365.png" class="MainImg" alt="" width="400" height="300">
+                </a>
+                <h2 class="MainTitle">Microsoft 365 pentru business</h2>
+                <p class="MainText">
+                    Fiți cu un pas înainte, cu ajutorul unor aplicații puternice pentru productivitate, conexiune și
+                    securitate.
+                </p>
+                <a href="#" class="MainLink">Cumpărați acum <img src="./imagini/next.png" class="ArrowImgNext" alt="">
+                </a>
+            </main>
+            <main class="Main">
+                <a href="#"> <img src="./imagini/MicrosoftVisa.png" class="MainImg" alt="" width="400" height="300"></a>
+                <h2 class="MainTitle">Vă prezentăm Microsoft Visa</h2>
+                <p class="MainText">
+                    Descoperiți noua platformă de experiență a angajaților concepută pentru a ajuta oamenii să se
+                    conecteze,
+                    să se concentreze, să învețe și să prospere la locul de muncă.
+                </p>
+                <a href="#" class="MainLink">Aflați mai multe <img src="./imagini/next.png" class="ArrowImgNext" alt="">
+                </a>
+            </main>
+            <main class="Main">
+                <a href="#"> <img src="./imagini/VisualStudio.png" class="MainImg" alt="" width="400" height="300">
+                </a>
+                <h2 class="MainTitle">Microsoft Teams</h2>
+                <p class="MainText">
+                    Discutați pe chat, sunați și faceți planuri cu familia și prietenii, toate într-o singură aplicație.
+                </p>
+                <a href="#" class="MainLink">Descărcați acum <img src="./imagini/next.png" class="ArrowImgNext" alt="">
+                </a>
+            </main>
+        </div>
+    </div>
+
+    <footer class="Footer">
+        <div class="FooterContainer">
+            <main class="FooterMain">
+                <h2 class="FooterTitle">Noutăți</h2>
+                <ul class="FooterList">
+                    <li class="FooterListItem"><a href="#" class="FooterListItemLink">Microsoft 365</a></li>
+                    <li class="FooterListItem"><a href="#" class="FooterListItemLink">Aplicații Windows 11</a></li>
+                </ul>
+            </main>
+            <main class="FooterMain">
+                <h2 class="FooterTitle">Microsoft Store</h2>
+                <ul class="FooterList">
+                    <li class="FooterListItem"><a href="#" class="FooterListItemLink">Profil de cont</a></li>
+                    <li class="FooterListItem"><a href="#" class="FooterListItemLink">Centrul de descărcare</a></li>
+                    <li class="FooterListItem"><a href="#" class="FooterListItemLink">Retururi</a></li>
+                    <li class="FooterListItem"><a href="#" class="FooterListItemLink">Urmărire comandă</a></li>
+                    <li class="FooterListItem"><a href="#" class="FooterListItemLink">Reciclare</a></li>
+                    <li class="FooterListItem"><a href="#" class="FooterListItemLink">Garanții comerciale</a></li>
+                </ul>
+            </main>
+            <main class="FooterMain">
+                <h2 class="FooterTitle">Educație</h2>
+                <ul class="FooterList">
+                    <li class="FooterListItem"><a href="#" class="FooterListItemLink">Microsoft în învățământ </a></li>
+                    <li class="FooterListItem"><a href="#" class="FooterListItemLink">Office pentru studenți</a></li>
+                    <li class="FooterListItem"><a href="#" class="FooterListItemLink">Office 365 pentru instituții de
+                            învățământ</a></li>
+                </ul>
+            </main>
+            <main class="FooterMain">
+                <h2 class="FooterTitle">Întreprindere</h2>
+                <ul class="FooterList">
+                    <li class="FooterListItem"><a href="#" class="FooterListItemLink">Microsoft Azure</a></li>
+                    <li class="FooterListItem"><a href="#" class="FooterListItemLink">Resurse pentru partenerii
+                            Microsoft</a></li>
+                </ul>
+            </main>
+            <main class="FooterMain">
+                <h2 class="FooterTitle">Dezvoltatori</h2>
+                <ul class="FooterList">
+                    <li class="FooterListItem"><a href="#" class="FooterListItemLink">Microsoft Visual Studio</a></li>
+                    <li class="FooterListItem"><a href="#" class="FooterListItemLink">Centru pentru dezvoltatori</a>
+                    </li>
+                    <li class="FooterListItem"><a href="#" class="FooterListItemLink">Canal 9</a></li>
+                    <li class="FooterListItem"><a href="#" class="FooterListItemLink">Centrul pentru dezvoltatori
+                            Microsoft 365</a></li>
+                    <li class="FooterListItem"><a href="#" class="FooterListItemLink">Programul pentru dezvoltatori
+                            Microsoft 365</a></li>
+                </ul>
+            </main>
+            <main class="FooterMain">
+                <h2 class="FooterTitle">Companie</h2>
+                <ul class="FooterList">
+                    <li class="FooterListItem"><a href="#" class="FooterListItemLink">Cariere</a></li>
+                    <li class="FooterListItem"><a href="#" class="FooterListItemLink">confidențialitate în cadrul
+                            companiei Microsoft</a></li>
+                    <li class="FooterListItem"><a href="#" class="FooterListItemLink">Angajamentul Microsoft privind
+                            prevenirea corupției și mitei</a></li>
+                    <li class="FooterListItem"><a href="#" class="FooterListItemLink">Investitori</a></li>
+                </ul>
+            </main>
+        </div>
+
+        <div class="FooterLanguage">
+            <i class="fas fa-globe-americas Glob"></i>
+            <a href="#" class="LanguageLink">Română(România)</a>
+        </div>
+
+        <div class="FooterNav">
+            <ul class="NavList">
+                <li class="NavListItem"><a href="#" class="NavItemLink">Contactați Microsoft</a></li>
+                <li class="NavListItem"><a href="#" class="NavItemLink">Gestionarea cookie-uri</a></li>
+                <li class="NavListItem"><a href="#" class="NavItemLink">Despre reclamele noastre</a></li>
+                <li class="NavListItem"><a href="#" class="NavItemLink">Confidențialitate</a></li>
+                <li class="NavListItem"><a href="#" class="NavItemLink">Condiții de utilizare</a></li>
+                <li class="NavListItem"><span class="Copy">&copy; Microsoft 2022</span></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
